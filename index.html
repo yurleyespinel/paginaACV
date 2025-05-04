@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factores de Riesgo - ACV en Adultos Jóvenes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Factores de Riesgo Asociados a Accidentes Cerebrovasculares en Adultos Jóvenes</h1>
+        <h2>Hospital Universitario Erasmo Meoz - Cúcuta, 2025</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#problema">Planteamiento del Problema</a></li>
+            <li><a href="#formulacion">Formulación del Problema</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#justificacion">Justificación</a></li>
+            <li><a href="#delimitacion">Delimitación</a></li>
+            <li><a href="#referencias">Referencias</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="introduccion">
+            <h2>Introducción</h2>
+            <img src="https://puntoapunto.com.ar/wp-content/uploads/2023/10/HP-ACV-portada-1-750x375.png"
+                alt="ACV en jóvenes">
+            <p>El accidente cerebrovascular (ACV) es una de las principales causas de morbilidad y mortalidad
+                en el mundo, El ACV es asociado a personas mayores de edad, pero en las últimas décadas se
+                ha observado un aumento alarmante en adultos jóvenes; individuos entre 18 y 45 años de edad,
+                lo que ha llevado al aumento del interés por parte la comunidad médica y científica para descubrir
+                los principales factores de riesgo en la población de adultos jóvenes de tener un ACV.
+            </p>
+            <p>
+                En Cúcuta, Colombia: los adultos jóvenes con ACV han representado un reto junto con otras
+                causales de la enfermedad como la calidad de vida y el alto coste que el ACV representa en el
+                tratamiento de la rehabilitación de la persona. El Hospital Universitario Erasmo Meoz, Es uno de
+                los principales centros de salud a nivel regional ha atendido una gran cantidad de casos de ACV.
+            </p>
+            <!-- Botón para mostrar el modal -->
+            <button id="showModalBtn">Mostrar más información</button>
+
+            <!-- Modal -->
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Información de la Investigación</h3>
+                    <p>Esta investigación tiene como propósito establecer los principales factores de riesgo para el
+                        desarrollo de accidentes cerebrovasculares en adultos jóvenes que recibieron atención en el
+                        Hospital Universitario Erasmo Meoz en las fechas del periodo 2025. Para el desarrollo de esta
+                        investigación de las variables más influenciables en el ACV; como la hipertensión, diabetes,
+                        dislipidemia, obesidad, sedentarismo, consumo de tabaco y consumo de alcohol también otros
+                        determinantes no tan comunes, por ejemplo, alteraciones en la coagulación y trastornos
+                        autoinmunes. Para así sirva para establecer esquemas en adultos jóvenes para la prevención de
+                        intervención del ACV de manera temprana.
+                    </p>
+
+                    <!-- Carrusel de imágenes -->
+                    <div class="carousel-container">
+                        <button class="prev" id="prevBtn">&#10094;</button>
+                        <div class="carousel">
+                            <img src="https://pbs.twimg.com/media/FI2P4jkXwAMLfbO?format=jpg&name=medium"
+                                alt="Imagen 1">
+                            <img src="https://scontent.fmzl1-1.fna.fbcdn.net/v/t1.6435-9/71035919_1232422356938185_9082812119627333632_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=P57w00RdfNUQ7kNvwEBEXpA&_nc_oc=AdneAjOposCjwyaCx9eT6H68rGBb5oLDpgu7p5Mbhu0l-88PGz7siSU0vLkjomgDn5Q&_nc_zt=23&_nc_ht=scontent.fmzl1-1.fna&_nc_gid=-3vtNrFr0HyCyhD_KuVLNg&oh=00_AfE4AmcxLgu3U5vdQ4N54TCm5Z2UWO1TCNAtUWonvU2IbQ&oe=683E1403"
+                                alt="Imagen 2">
+                            <img src="https://scontent.fmzl1-1.fna.fbcdn.net/v/t1.6435-9/58551769_1117838631729892_7207078585817890816_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=uDLRZ2daMHwQ7kNvwG5iR3y&_nc_oc=AdnqL9nGzf3xlEWaaK_j9rc91zyB9Uoj300FFK7YGDLPAMCX8uK8exHzVadMUZrTRXY&_nc_zt=23&_nc_ht=scontent.fmzl1-1.fna&_nc_gid=uYdHU4f7vjEX1tqAy-dBXg&oh=00_AfGtxhjVL4hgpAcfhMLCGbW3GiVYcHhUi5wF1jE3S6JhOg&oe=683E2326"
+                                alt="Imagen 3">
+                        </div>
+                        <button class="next" id="nextBtn">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="problema">
+            <h2>Planteamiento del Problema</h2>
+            <img src="https://www.tn8.tv/wp-content/uploads/2023/02/8-10.jpg" alt="Factores de riesgo ACV">
+            <p>ACV. Cuando se habla de ACV se asocia primeramente e exclusivamente de los adultos
+                mayores; sin embargo con el paso del tiempo especialmente en las últimas décadas se a
+                evidenciado un incremento en la aparición en comunidades más jóvenes que lo normal, este
+                panorama ha generado una intensa preocupación por la comunidad médica y científica <a
+                    href="https://pubmed.ncbi.nlm.nih.gov/19246709/" target="_blank">(Putaala et al, 2009)</a>.
+                Investigaciones han determinado que algunos de los factores de riesgo que tienen una gran
+                influencia en la aparición de la enfermedad son la hipertensión arterial, diabetes mellitus,
+                dislipidemia, obesidad, sedentarismo, tabaquismo, consumo de alcohol y drogas, antecedentes
+                familiares y enfermedades cardiovasculares preexistentes <a
+                    href="https://pubmed.ncbi.nlm.nih.gov/27431356/" target="_blank">(O'Donnell MJ, Chin SL, Rangarajan
+                    S, Xavier D, et al, 2016)</a> - <a href="https://pubmed.ncbi.nlm.nih.gov/30072187//"
+                    target="_blank">(Ekker MS, Boot EM, Singhal AB, Tan KS, et al., 2018)</a>.
+            </p>
+            <p>Teniendo en cuenta factores
+                menos comunes como lo podrían llegar a ser: algunos trastornos autoinmunes, ciertas
+                infecciones y alteraciones en la coagulación del paciente, los cuales pueden desarrollar un papel
+                muy importante en la aparición de esta enfermedad <a href="https://pubmed.ncbi.nlm.nih.gov/35172762/"
+                    target="_blank">(Guo Y, Li J, Li W, Zhang Y, et al, 2016)</a>. En Cúcuta, Colombia; no hay muchos
+                estudios actuales que se encarguen de investigar los distintos factores de riesgo que podrían
+                llegar a causar enfermedades cardio cerebrovasculares entre ellas el ACV. En el Hospital HUEM
+                se han llegado a tender muchos casos de enfermedades cardio cerebrovasculares lo que apoya
+                la idea de la necesidad de este análisis para así poder llevar a cabo estrategias de prevención y
+                control de estas enfermedades como el ACV.
+            </p>
+        </section>
+
+        <section id="formulacion">
+            <h2>Formulación del Problema</h2>
+            <p>¿Cuáles son los factores de riesgo asociados a los accidentes cerebrovasculares en adultos jóvenes (18-45
+                años) atendidos en el Hospital Universitario Erasmo Meoz de Cúcuta durante el año 2025?</p>
+        </section>
+
+        <section id="objetivos">
+            <h2>Objetivos</h2>
+            <img src="https://irp.cdn-website.com/a979b4f7/dms3rep/multi/riesgo_Mesa+de+trabajo+1.jpg"
+                alt="Factores de riesgo ACV en jóvenes">
+            <h3>Objetivo General</h3>
+            <p>Identificar los factores de riesgo modificables y no modificables asociados a los ACV en adultos jóvenes
+                atendidos en el Hospital Universitario Erasmo Meoz durante el 2025.</p>
+
+            <h3>Objetivos Especificos</h3>
+            <ul>
+                <li>Establecer los principales factores de riesgos no modificables y modificables que
+                    predominan causados por ACV en adultos jóvenes atendidos en el hospital Erasmo Meoz
+                    de Cúcuta.</li>
+                <li>Reconocer la repercusión de ACV en adultos jóvenes en relación a los factores de riesgo
+                    modificables (hipertensión, obesidad, diabetes, tabaquismo, entre otros) y no
+                    modificables.</li>
+                <li>Determinar la existencia de conexiones entre los factores genéticos junto a enfermedades
+                    previas en los adultos jóvenes con ACV.</li>
+            </ul>
+        </section>
+
+        <section id="justificacion">
+            <h2>Justificación de la Investigación</h2>
+            <img src="https://tesisplus.com/wp-content/uploads/2019/04/Importancia-de-la-justificaci%C3%B3n-de-la-investigaci%C3%B3n.jpg"
+                alt="Factores de riesgo ACV en jóvenes">
+            <p>
+                La elevada cifra de incidencia en los ACV en adultos jóvenes en los últimos años manifiesta un
+                desafío para el sistema de salud, esto se debe a su impacto en la calidad de vida de los pacientes
+                junto con sus consecuencias socioeconómicas originadas por la discapacidad y sus costos en
+                tratamientos a largo plazo que provoca <a href="https://pubmed.ncbi.nlm.nih.gov/23652265/"
+                    target="_blank">(Sacco RL, Kasner SE, Broderick JP, Caplan LR, et al, 2013)</a>. Múltiples factores
+                de riesgo asociados al ACV se han
+                establecido por medio de múltiples investigaciones por parte de países desarrollados en sus
+                poblaciones, por ello se considera necesario y fundamental realizar estas mismas
+                investigaciones en el contexto local con la intención de entender de mejor manera los patrones
+                epidemiológicos de esta enfermedad en Cúcuta.
+            </p>
+            <p>
+                Este estudio permitirá conseguir la información
+                necesaria para el reconocimiento de los distintos factores de riesgo que son presentados por la
+                población de adultos jóvenes con ACV; el cómo varían y cuando están presentes, lo cual
+                ayudará a poder avanzar en los procesos de atención primaria del ACV en adultos jóvenes. de
+                igual manera, El modo en el que los resultados de esta investigación podrán ser de gran ayuda
+                para el desarrollo de las áreas de investigaciones y de políticas de salud pública, las cuales están
+                enfocadas en conllevar los resultados de esta enfermedad a nivel de la población.
+            </p>
+        </section>
+
+        <section id="delimitacion">
+            <h2>Delimitación del Problema </h2>
+            <img src="https://mosaico.tec.mx/sites/g/files/vgjovo1231/files/styles/crop_1_768px/public/2023-07/escritor-decidiendo-como-delimitar-tema.jpg?h=3bb0ff5f&itok=qzGzt_pJ"
+                alt="Factores de riesgo ACV en jóvenes">
+            <div class="cuadros">
+                <div class="cuadro">
+                    <h3 class="titulo-cuadro">Tiempo</h3>
+                    <p class="contenido-cuadro">Este estudio se llevará a cabo en el período de tiempo de 2025.</p>
+                </div>
+                <div class="cuadro">
+                    <h3 class="titulo-cuadro">Espacio</h3>
+                    <p class="contenido-cuadro">Se llevará a cabo en el Hospital Universitario Erasmo Meoz en la ciudad de Cúcuta, Colombia.</p>
+                </div>
+                <div class="cuadro">
+                    <h3 class="titulo-cuadro">Población</h3>
+                    <p class="contenido-cuadro">Abarcará a los pacientes adultos jóvenes de entre los 18 a 45 años de edad; que tengan ACV de manera diagnosticada y sus factores de riesgo.</p>
+                </div>
+                <div class="cuadro">
+                    <h3 class="titulo-cuadro">Temática</h3>
+                    <p class="contenido-cuadro">Se tratará en torno a la identificación e investigación de pacientes con ACV para así poder hacer una asociación con cuáles pueden llegar los principales causas o riesgos que pueden llevar a el ACV en adultos jóvenes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="referencias">
+            <h2>Referencias</h2>
+            <ul>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/34487721/" target="_blank">Feigin et al., 2021</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/19246709/" target="_blank">Putaala et al., 2009</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Fuente: Hospital Universitario Erasmo Meoz - Cúcuta, Colombia</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
