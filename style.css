@@ -9,7 +9,8 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #00529B;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    /* Gradiente bonito */
     color: white;
     text-align: center;
     padding: 20px;
@@ -122,6 +123,7 @@ img {
 /* Estilo para el texto */
 p {
     line-height: 1.5;
+    text-align: justify;
 }
 
 /* Estilos para el carrusel */
@@ -129,24 +131,29 @@ p {
     position: relative;
     max-width: 640px;
     margin: auto;
-    overflow: hidden; /* Asegura que las imágenes fuera del contenedor no se vean */
+    overflow: hidden;
+    /* Asegura que las imágenes fuera del contenedor no se vean */
 }
 
 .carousel {
     display: flex;
-    transition: transform 0.5s ease-in-out; /* Transición suave al deslizar */
+    transition: transform 0.5s ease-in-out;
+    /* Transición suave al deslizar */
 }
 
 .carousel img {
     width: 100%;
-    height: auto; /* Asegura que la imagen se ajuste correctamente */
+    height: auto;
+    /* Asegura que la imagen se ajuste correctamente */
     object-fit: cover;
     border-radius: 10px;
-    flex-shrink: 0; /* Asegura que las imágenes no se encojan */
+    flex-shrink: 0;
+    /* Asegura que las imágenes no se encojan */
 }
 
 /* Botones de navegación */
-#prevBtn, #nextBtn {
+#prevBtn,
+#nextBtn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -170,7 +177,8 @@ p {
 }
 
 /* Efecto hover para los botones */
-#prevBtn:hover, #nextBtn:hover {
+#prevBtn:hover,
+#nextBtn:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -216,14 +224,18 @@ button:hover {
 }
 
 .modal-content h3 {
-    text-align: justify; /* Justificar el texto del título */
+    text-align: justify;
+    /* Justificar el texto del título */
     margin-bottom: 10px;
 }
 
 .modal-content p {
-    text-align: justify; /* Justificar el texto del párrafo */
-    text-indent: 30px; /* Añadir sangría al inicio de cada párrafo */
-    line-height: 1.6; /* Mejorar la legibilidad aumentando el interlineado */
+    text-align: justify;
+    /* Justificar el texto del párrafo */
+    text-indent: 30px;
+    /* Añadir sangría al inicio de cada párrafo */
+    line-height: 1.6;
+    /* Mejorar la legibilidad aumentando el interlineado */
 }
 
 .close {
@@ -261,7 +273,33 @@ button:hover {
     cursor: pointer;
 }
 
+.cuadro img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.cuadro-problema {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cuadro-problema img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .cuadro:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cuadro-problema:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -283,6 +321,10 @@ button:hover {
     display: block;
 }
 
+.cuadro-problema:hover .contenido-cuadro {
+    display: block;
+}
+
 /* Responsividad */
 @media screen and (max-width: 600px) {
     header h1 {
@@ -298,3 +340,36 @@ button:hover {
         margin: 10px 0;
     }
 }
+
+/* Estilos del Footer */
+footer {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+    }
+
+    .integrantes {
+      padding: 30px 20px;
+    }
+
+    .integrantes h3 {
+      margin-bottom: 15px;
+      font-size: 1.2em;
+    }
+
+    .integrantes ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .integrantes li {
+      margin: 5px 0;
+    }
+
+    .institucion {
+      background: linear-gradient(135deg, #9661cf, #2575fc);
+      color: white;
+      padding: 15px;
+      font-weight: bold;
+    }
